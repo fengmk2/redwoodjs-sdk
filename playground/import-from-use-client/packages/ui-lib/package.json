@@ -1,5 +1,5 @@
 {
-  "name": "ui-lib",
+  "name": "hello-world-import-from-use-client-ui-lib",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",

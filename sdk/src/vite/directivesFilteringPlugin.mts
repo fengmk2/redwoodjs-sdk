@@ -39,7 +39,7 @@ export const directivesFilteringPlugin = ({
           const absoluteId = normalizeModulePath(id, projectRootDir, {
             absolute: true,
           });
-          const info = this.getModuleInfo(absoluteId);
+          const info = this.getModuleInfo(absoluteId) as any;
 
           if (!info?.isIncluded) {
             files.delete(id);

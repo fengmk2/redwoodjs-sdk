@@ -1,5 +1,5 @@
 {
-  "name": "ui-lib",
+  "name": "hello-world-monorepo-top-level-deps-ui-lib",
   "version": "1.0.0",
   "main": "index.js",
   "types": "index.d.ts"

@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "hello-world-meta-hoisting",
   "version": "1.0.0",
   "description": "A bare-bones RedwoodSDK starter",
   "main": "index.js",
