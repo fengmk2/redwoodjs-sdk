@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it } from "vitest";
+import { beforeEach, describe, expect, it } from "@voidzero-dev/vite-plus/test";
 import { _resetPkgCache, hasPkgScript } from "./hasPkgScript.mjs";
 
 // Manually reset the cache before each test

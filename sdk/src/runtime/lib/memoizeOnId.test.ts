@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from "vitest";
+import { describe, expect, it, vi } from "@voidzero-dev/vite-plus/test";
 import { memoizeOnId } from "./memoizeOnId";
 
 describe("memoizeOnId", () => {

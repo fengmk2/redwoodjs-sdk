@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from "vitest";
+import { beforeEach, describe, expect, it, vi } from "@voidzero-dev/vite-plus/test";
 import {
   createDefaultNavigationCacheStorage,
   evictOldGenerationCaches,

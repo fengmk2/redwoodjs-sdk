@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it } from "@voidzero-dev/vite-plus/test";
 import {
   VENDOR_CLIENT_BARREL_EXPORT_PATH,
   VENDOR_SERVER_BARREL_EXPORT_PATH,

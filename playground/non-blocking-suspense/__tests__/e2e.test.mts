@@ -1,4 +1,4 @@
-import { expect } from "vitest";
+import { expect } from "@voidzero-dev/vite-plus/test";
 import { setupPlaygroundEnvironment, testDevAndDeploy, poll } from "rwsdk/e2e";
 
 setupPlaygroundEnvironment(import.meta.url);

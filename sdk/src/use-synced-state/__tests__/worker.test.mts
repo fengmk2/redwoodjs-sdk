@@ -1,4 +1,4 @@
-import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "@voidzero-dev/vite-plus/test";
 
 vi.mock("cloudflare:workers", () => {
   class DurableObject {}

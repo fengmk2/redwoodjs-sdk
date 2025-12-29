@@ -1,5 +1,5 @@
 import React from "react";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it } from "@voidzero-dev/vite-plus/test";
 
 import type { RequestInfo } from "../requestInfo/types";
 import {

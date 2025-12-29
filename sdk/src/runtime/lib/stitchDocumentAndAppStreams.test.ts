@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it } from "@voidzero-dev/vite-plus/test";
 import { stitchDocumentAndAppStreams } from "./stitchDocumentAndAppStreams.js";
 
 function stringToStream(str: string): ReadableStream<Uint8Array> {

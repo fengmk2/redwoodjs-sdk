@@ -1,5 +1,5 @@
 import jsBeautify from "js-beautify";
-import { beforeEach, describe, expect, it } from "vitest";
+import { beforeEach, describe, expect, it } from "@voidzero-dev/vite-plus/test";
 import stubEnvVars from "../lib/testUtils/stubEnvVars.mjs";
 import { transformJsxScriptTagsCode } from "./transformJsxScriptTagsPlugin.mjs";
 

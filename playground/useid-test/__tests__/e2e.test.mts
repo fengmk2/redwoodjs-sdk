@@ -1,4 +1,4 @@
-import { describe, expect } from "vitest";
+import { describe, expect } from "@voidzero-dev/vite-plus/test";
 import {
   setupPlaygroundEnvironment,
   testDevAndDeploy,

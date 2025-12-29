@@ -36,12 +36,13 @@
     "@types/react": "19.1.2",
     "@types/react-dom": "19.1.2",
     "typescript": "5.9.3",
-    "vite": "7.2.6",
-    "vitest": "^4.0.0",
+    "vite": "catalog:",
+    "vitest": "catalog:",
     "wrangler": "4.52.1",
     "postcss": "^8.4.38",
     "postcss-preset-mantine": "^1.15.0",
-    "postcss-simple-vars": "^7.0.1"
+    "postcss-simple-vars": "^7.0.1",
+    "@voidzero-dev/vite-plus": "catalog:"
   },
   "overrides": {
     "react": "19.2.3",

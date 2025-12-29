@@ -1,4 +1,4 @@
-import { afterEach, beforeEach } from "vitest";
+import { afterEach, beforeEach } from "@voidzero-dev/vite-plus/test";
 
 const stubEnvVars = () => {
   let originals = {} as NodeJS.ProcessEnv;
