@@ -9,7 +9,7 @@ import {
   beforeEach,
   describe,
   test,
-} from "vitest";
+} from "@voidzero-dev/vite-plus/test";
 import { launchBrowser } from "./browser.mjs";
 import {
   DEPLOYMENT_CHECK_TIMEOUT,

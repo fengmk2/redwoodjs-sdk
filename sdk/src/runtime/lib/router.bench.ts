@@ -1,5 +1,5 @@
 import React from "react";
-import { bench } from "vitest";
+import { bench } from "@voidzero-dev/vite-plus/test";
 
 import type { RequestInfo } from "../requestInfo/types";
 import { defineRoutes, layout, matchPath, prefix, route } from "./router";

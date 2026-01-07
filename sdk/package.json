@@ -17,10 +17,10 @@
     "build": "tsc --build --clean && tsc",
     "build:watch": "npm run build -- --watch",
     "release": "./scripts/release.sh",
-    "test": "vitest --run",
-    "bench": "vitest bench --run",
-    "bench:baseline": "vitest bench --run --outputJson=benchmarks/router-bench-baseline.json",
-    "bench:compare": "vitest bench --run --compare=benchmarks/router-bench-baseline.json",
+    "test": "vite test --run",
+    "bench": "vite test bench --run",
+    "bench:baseline": "vite test bench --run --outputJson=benchmarks/router-bench-baseline.json",
+    "bench:compare": "vite test bench --run --compare=benchmarks/router-bench-baseline.json",
     "debug:sync": "tsx ./src/scripts/debug-sync.mts",
     "smoke-test": "tsx ./src/scripts/smoke-test.mts"
   },
@@ -211,7 +211,8 @@
     "semver": "~7.7.1",
     "tsx": "~4.20.0",
     "typescript": "~5.9.0",
-    "vite": "~7.2.0",
-    "vitest": "^4.0.0"
+    "vite": "catalog:",
+    "vitest": "catalog:",
+    "@voidzero-dev/vite-plus": "catalog:"
   }
 }

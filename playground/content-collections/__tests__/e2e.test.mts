@@ -1,5 +1,5 @@
 import { poll, setupPlaygroundEnvironment, testDevAndDeploy } from "rwsdk/e2e";
-import { expect } from "vitest";
+import { expect } from "@voidzero-dev/vite-plus/test";
 
 setupPlaygroundEnvironment(import.meta.url);
 

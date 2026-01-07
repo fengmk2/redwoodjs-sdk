@@ -1,5 +1,5 @@
 import path from "node:path";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it } from "@voidzero-dev/vite-plus/test";
 import { determineWorkerEntryPathname } from "./redwoodPlugin.mjs";
 
 describe("determineWorkerEntryPathname", () => {
